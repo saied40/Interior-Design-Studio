@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Noah Shaheen">
+    <meta name="github" content="https://github.com/noah8-git">
+    <meta
+      name="description"
+      content="Very Good Webpage designed by Figma Community and Coded by Noah Shaheen"
+    />
+    <link rel="icon" href="./imgs/red-dot.png" />
+    <title>Interior Design Studio</title>
+    <link rel="stylesheet" href="./font awesome/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="./script/main.js" defer></script>
+  </head>
+  <body>
+    <header class="header container">
+      <div class="logo">id Studio</div>
+      <div class="toggle-nav" id="toggle-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="right-header sm-none">
+        <div class="nav-links">
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="right">
+          <a href="#">(303) 555-0105</a>
+          <select name="lang">
+            <option value="en" title="English">EN</option>
+            <option value="ar" title="Arabic">AR</option>
+            <option value="sp" title="Spanish">SP</option>
+          </select>
+        </div>
+      </div>
+    </header>
+    <section class="landing">
+      <div class="left-landing">
+        <h1>We create your space better</h1>
+        <p>
+          Our team creates comfortable spaces for our clients. We,ve been
+          designing your everyday life and work through great ideas since 1999.
+        </p>
+        <button type="button" class="main-btn">Get started</button>
+      </div>
+      <div class="right-landing">
+        <div class="img"></div>
+      </div>
+    </section>
+    <section class="about container" id="about">
+      <h2 class="main-title">About<br /><span>Studio</span></h2>
+      <div class="sub-about">
+        <p>
+          Interiart is an award-winning architecture and interior design
+          practice based in NYC. We work internationally on projects of
+          residential & commercial interior design that require a creative
+          approach. Our talented and experienced designers leverage their
+          knowledge and expertise to create unique and comfortable interiors for
+          you.
+        </p>
+        <p id="about-p">
+          Our team knows that interior design can be stressful for the client
+          and we do our best to make it as easy as possible. We listen to your
+          needs, ideas, and inputs. And most importantly, we make it exciting
+          and enjoyable for our clients.
+        </p>
+        <button type="button" class="more" id="about-more">Read More</button>
+      </div>
+    </section>
+    <section class="services container" id="services">
+      <h2 class="main-title">our <span>Services</span></h2>
+      <div class="boxes">
+        <div class="box">
+          <div class="box-img">
+            <img src="./imgs/couch.png" alt="testing img" />
+          </div>
+          <div class="box-text">
+            <div class="box-title">INTERIOR DESIGN</div>
+            <div class="box-desc">
+              Interior design services offer a vast variety of solutions for our
+              clients, homes and offices.
+            </div>
+          </div>
+        </div>
+        <div class="line-break sm-block"></div>
+        <div class="box">
+          <div class="box-img">
+            <img src="./imgs/couch.png" alt="testing img" />
+          </div>
+          <div class="box-text">
+            <div class="box-title">DECORATIVE SERVICES</div>
+            <div class="box-desc">
+              Our professional decorators will be happy to help you change your
+              house's inner look.
+            </div>
+          </div>
+        </div>
+        <div class="line-break sm-block"></div>
+        <div class="box">
+          <div class="box-img">
+            <img src="./imgs/couch.png" alt="testing img" />
+          </div>
+          <div class="box-text">
+            <div class="box-title">SPACE PLANNING</div>
+            <div class="box-desc">
+              We create better interior experiences through our space planning
+              services.
+            </div>
+          </div>
+        </div>
+        <div class="line-break sm-block"></div>
+        <div class="box">
+          <div class="box-img">
+            <img src="./imgs/couch.png" alt="testing img" />
+          </div>
+          <div class="box-text">
+            <div class="box-title">PROJECT MANAGEMENT</div>
+            <div class="box-desc">
+              We provide proper project management as it’s one of the main
+              success factors in interior design.
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="main-btn sm-none">Free consultation</button>
+    </section>
+    <section class="portfolio container" id="portfolio">
+      <h2 class="main-title">our <span>portfolio</span></h2>
+      <div class="portfolio-content">
+        <div class="taps">
+          <button data-type="all" class="active">all</button>
+          <button data-type="commercial">COMMERCIAL</button>
+          <button data-type="residential">RESIDENTIAL</button>
+          <button data-type="office">OFFICE</button>
+          <button data-type="other">OTHER</button>
+        </div>
+        <div class="cards" id="portCards">
+          <!-- <div class="card" style="background-image: url(./imgs/portfolio01.png);"></div>
+          <div class="card" style="background-image: url(./imgs/portfolio02.png);"></div>
+          <div class="card" style="background-image: url(./imgs/portfolio03.png);"></div>
+          <div class="card" style="background-image: url(./imgs/portfolio04.png);"></div>
+          <div class="card" style="background-image: url(./imgs/portfolio05.png);"></div>
+          <div class="card sm-none" style="background-image: url(./imgs/portfolio06.png);"></div>
+          <div class="card sm-none" style="background-image: url(./imgs/portfolio07.png);"></div>
+          <div class="card sm-none" style="background-image: url(./imgs/portfolio08.png);"></div>
+          <div class="card sm-none" style="background-image: url(./imgs/portfolio09.png);"></div>
+          <div class="card sm-none" style="background-image: url(./imgs/portfolio10.png);"></div>
+          <div class="card sm-none" style="background-image: url(./imgs/portfolio11.png);"></div>
+          <div class="card sm-none" style="background-image: url(./imgs/portfolio12.png);"></div> -->
+        </div>
+      </div>
+    </section>
+    <section class="pricing container" id="pricing">
+      <h2 class="main-title">our <span>pricing</span></h2>
+      <div class="pricing-content">
+        <div class="plan">
+          <div class="title">Basic</div>
+          <div class="info">
+            <div class="price"><span>$25</span><br class="sm-none" />per month</div>
+            <div class="line-break"></div>
+            <div class="desc">
+              Interior Design Project Discussion Space Planning Online
+              Consultation
+            </div>
+          </div>
+          <button type="button" class="main-btn">buy now</button>
+        </div>
+        <div class="plan special">
+          <div class="title">Standard</div>
+          <div class="info">
+            <div class="price"><span>$50</span><br class="sm-none" />per month</div>
+            <div class="line-break"></div>
+            <div class="desc">
+              Color Analysis Space Planning Home Remodeling 3D Interior Model
+            </div>
+          </div>
+          <button type="button" class="main-btn">buy now</button>
+        </div>
+        <div class="plan">
+          <div class="title">Premium</div>
+          <div class="info">
+            <div class="price"><span>$80</span><br class="sm-none" />per month</div>
+            <div class="line-break"></div>
+            <div class="desc">
+              Concept Development Decoration Services Interior Architecture
+              Flooring Installation
+            </div>
+          </div>
+          <button type="button" class="main-btn">buy now</button>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials container" id="testimonials">
+      <h2 class="main-title">What <span>People Say</span></h2>
+      <div class="content">
+        <div class="cards" id="testCont">
+          <!-- <div class="card">
+            <div class="top">
+              <div
+                class="img"
+                style="background-image: url(../imgs/testimonials01.png)"
+              ></div>
+              <div class="text">
+                <div class="name">Annette Black</div>
+                <div class="sub-desc">Merchandising Associate</div>
+              </div>
+              <div class="line-break"></div>
+              <div class="social">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-twitch"></i></a>
+              </div>
+            </div>
+            <p class="bottom">
+              Corvallis non prion ac biennium. At phaedra sed utricles semper.
+              Lectus et ornare ultrices urna in. Id non fringilla dignissim ac
+              risus amet eget egestas vestibulum. Aliquet etiam eget nulla nulla
+              odio vel.
+            </p>
+          </div>
+          <div class="card sm-none">
+            <div class="top">
+              <div
+                class="img"
+                style="background-image: url(../imgs/testimonials02.png)"
+              ></div>
+              <div class="text">
+                <div class="name">Marvin McKinney</div>
+                <div class="sub-desc">Administrator</div>
+              </div>
+              <div class="line-break"></div>
+              <div class="social">
+                <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+              </div>
+            </div>
+            <p class="bottom">
+              Leo viverra vestibulum amet, scelerisque. Vitae, ultrices mi
+              rhoncus porttitor nulla sed sodales. Curabitur tellus massa,
+              lacinia non at. Lacus, hac fermentum, viverra tortor, eget. Eget
+              egestas eget ultrices vitae.
+            </p>
+          </div> -->
+        </div>
+        <ul class="dots" id="testTaps">
+          <!-- <li value="0,1" class="active"></li>
+          <li value="2,3"></li>
+          <li value="4,5"></li> -->
+        </ul>
+      </div>
+    </section>
+    <section class="question container">
+      <h2 class="main-title">Do you have<br /><span>any question?</span></h2>
+      <button type="button" class="main-btn">order a call</button>
+    </section>
+    <footer class="footer container">
+      <div class="logo-cont">
+        <a href="#" class="logo">id Studio</a>
+        <p>
+          We are one of the leading interior design and remodeling studios
+          available for all of your residential and commercial interior design
+          needs.
+        </p>
+        <p>&copy;  2023 id Studio. All Rights Reserved.</p>
+      </div>
+      <div class="nav">
+        <h6 class="footer-title">Navigation</h6>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">portfolio</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#testimonials">testimonials</a></li>
+        </ul>
+        <div class="social">
+          <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+        </div>
+      </div>
+      <div class="contact">
+        <h6 class="footer-title">CONTACTS</h6>
+        <ul>
+          <li>
+            <span>address</span>
+            <p>3517 W. Gray St. Utica, Pennsylvania 57867</p>
+          </li>
+          <li>
+            <span>e-mail</span>
+            <p>michelle.rivera@idstudio.com</p>
+          </li>
+          <li>
+            <span>phones</span>
+            <p><a href="#">(808) 555-0111</a> or <a href="#">(303) 555-0105</a></p>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

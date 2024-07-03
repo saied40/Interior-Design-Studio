@@ -1,0 +1,50 @@
+[
+  {
+    "img": "./imgs/portfolio01.png",
+    "type": "commercial"
+  },
+  {
+    "img": "./imgs/portfolio02.png",
+    "type": "commercial"
+  },
+  {
+    "img": "./imgs/portfolio03.png",
+    "type": "commercial"
+  },
+  {
+    "img": "./imgs/portfolio04.png",
+    "type": "residential"
+  },
+  {
+    "img": "./imgs/portfolio05.png",
+    "type": "residential"
+  },
+  {
+    "img": "./imgs/portfolio06.png",
+    "type": "office"
+  },
+  {
+    "img": "./imgs/portfolio07.png",
+    "type": "office"
+  },
+  {
+    "img": "./imgs/portfolio08.png",
+    "type": "office"
+  },
+  {
+    "img": "./imgs/portfolio09.png",
+    "type": "other"
+  },
+  {
+    "img": "./imgs/portfolio10.png",
+    "type": "other"
+  },
+  {
+    "img": "./imgs/portfolio11.png",
+    "type": "other"
+  },
+  {
+    "img": "./imgs/portfolio12.png",
+    "type": "other"
+  }
+]

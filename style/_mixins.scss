@@ -1,0 +1,91 @@
+// convert px to rem
+@function rem($pixels, $context: 16) {
+  @return calc($pixels / $context) * 1rem;
+}
+
+// media queries
+
+// small: 320px => 767px
+// medium: 768px => 991px
+// large: 992px => 1199px
+// xLarge: 1200px => 1440px
+
+$breakPoints-from: (
+  'zero': '0px',
+  'small': '320px',
+  'medium': '768px',
+  'large': '992px',
+  'xLarge': '1200px',
+);
+
+$breakPoints-to: (
+  'small': '767px',
+  'medium': '991px',
+  'large': '1199px',
+  'xLarge': '1440px',
+);
+
+@mixin breakPoint($from: '', $to: '') {
+  @if $from == '' {
+    @media (max-width: map-get($breakPoints-to, $to)) {
+      @content;
+    }
+  } @else if $to == '' {
+    @media (min-width: map-get($breakPoints-from, $from)) {
+      @content;
+    }
+  } @else {
+    @media (min-width: map-get($breakPoints-from, $from)) and (max-width: map-get($breakPoints-to, $to)) {
+      @content;
+    }
+  }
+}
+
+@mixin transition($delay: 400ms) {
+  -webkit-transition: all $delay ease-in-out;
+  -moz-transition: all $delay ease-in-out;
+  -ms-transition: all $delay ease-in-out;
+  -o-transition: all $delay ease-in-out;
+  transition: all $delay ease-in-out;
+}
+
+@mixin radius($deg: 50%) {
+  @if $deg != 0 {
+    -webkit-border-radius: $deg;
+    -moz-border-radius: $deg;
+    -ms-border-radius: $deg;
+    -o-border-radius: $deg;
+    border-radius: $deg;
+  } @else {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    border-radius: 0 !important;
+  }
+}
+
+@mixin scale($deg: 1.1) {
+  -webkit-transform: scale($deg);
+  -moz-transform: scale($deg);
+  -ms-transform: scale($deg);
+  -o-transform: scale($deg);
+  transform: scale($deg);
+}
+
+@mixin d-flex($dir, $align: '', $justify: '') {
+  display: flex;
+  @if $dir == 1 {
+    flex-direction: row;
+  } @else if $dir == 2 {
+    flex-direction: column;
+  } @else {
+    flex-direction: $dir;
+  }
+  @if $align != '' {
+    align-items: $align;
+  }
+  @if $justify != '' {
+    justify-content: $justify;
+  }
+}

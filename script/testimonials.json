@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Annette Black",
+    "position": "Merchandising Associate",
+    "img": "./imgs/testimonials01.png",
+    "opinion": "Corvallis non prion ac biennium. At phaedra sed utricles semper. Lectus et ornare ultrices urna in. Id non fringilla dignissim ac risus amet eget egestas vestibulum. Aliquet etiam eget nulla nulla odio vel.",
+    "social": {
+      "github": "https://github.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "twitter": "https://twitter.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "twitch": "https://www.twitch.tv/"
+    }
+  },
+  {
+    "name": "Marvin McKinney",
+    "position": "Administrator",
+    "img": "./imgs/testimonials02.png",
+    "opinion": "Leo viverra vestibulum amet, scelerisque. Vitae, ultrices mi rhoncus porttitor nulla sed sodales. Curabitur tellus massa, lacinia non at. Lacus, hac fermentum, viverra tortor, eget. Eget egestas eget ultrices vitae.",
+    "social": {
+      "github": "https://github.com/",
+      "facebook": "https://www.facebook.com/",
+      "twitter": "https://twitter.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "twitch": "https://www.twitch.tv/"
+    }
+  },
+  {
+    "name": "John Smith",
+    "position": "CEO",
+    "img": "./imgs/testimonials03.png",
+    "opinion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ipsam vel nihil necessitatibus. Rem deleniti facilis nulla vero recusandae velit ex laudantium odio, possimus temporibus sed qui laboriosam debitis at!",
+    "social": {
+      "github": "https://github.com/",
+      "instagram": "https://www.instagram.com/",
+      "twitter": "https://twitter.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "twitch": "https://www.twitch.tv/"
+    }
+  },
+  {
+    "name": "Joseph",
+    "position": "Technical",
+    "img": "./imgs/testimonials04.png",
+    "opinion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ipsam vel nihil necessitatibus. Rem deleniti facilis nulla vero recusandae velit ex laudantium odio, possimus temporibus sed qui laboriosam debitis at!",
+    "social": {
+      "github": "https://github.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "linkedin": "https://www.linkedin.com/",
+      "twitch": "https://www.twitch.tv/"
+    }
+  },
+  {
+    "name": "Noah Shaheen",
+    "position": "Software Developer",
+    "img": "./imgs/testimonials05.png",
+    "opinion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ipsam vel nihil necessitatibus. Rem deleniti facilis nulla vero recusandae velit ex laudantium odio, possimus temporibus sed qui laboriosam debitis at!",
+    "social": {
+      "github": "https://github.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "twitter": "https://twitter.com/",
+      "twitch": "https://www.twitch.tv/"
+    }
+  },
+  {
+    "name": "Muhammad Ali",
+    "position": "Web Developer",
+    "img": "./imgs/testimonials06.png",
+    "opinion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ipsam vel nihil necessitatibus. Rem deleniti facilis nulla vero recusandae velit ex laudantium odio, possimus temporibus sed qui laboriosam debitis at!",
+    "social": {
+      "github": "https://github.com/",
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/",
+      "twitter": "https://twitter.com/",
+      "linkedin": "https://www.linkedin.com/"
+    }
+  }
+]
